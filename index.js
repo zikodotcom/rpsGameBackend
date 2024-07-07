@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 // Configure Socket.IO with CORS options
 const io = new Server(server, {
   cors: {
-    origin: "http://192.168.1.103:5173", // Ensure no trailing slash
+    origin: "https://rpsgame-gules.vercel.app", // Ensure no trailing slash
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type"],
     credentials: true,
